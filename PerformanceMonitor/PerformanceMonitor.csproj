@@ -41,11 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DiskMonitor.cs" />
     <Compile Include="DynamicManagementObject.cs" />
-    <Compile Include="IUsageMonitor.cs" />
+    <Compile Include="MemoryMonitor.cs" />
     <Compile Include="NetworkInterfaceMonitor.cs" />
     <Compile Include="NetworkMonitor.cs" />
     <Compile Include="PerformanceCounterName.cs" />
+    <Compile Include="ProcessorMonitor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
